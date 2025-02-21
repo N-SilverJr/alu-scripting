@@ -1,18 +1,1 @@
-��=�=��
-s module contains the function number_of_subscribers.
-It queries the Reddit API to get the number of subscribers for a given subredds module contains the function number_of_subscribers.
-It queries the Reddit API to get the number of subscribers for a given subreddi}t        j                  |s module contains the function number_of_subscribers.
-It queries the Red �      j                 d
-ds module contains the function number_of_subscribers.
-It queries the Reddit API to get the number of subscribers for a given subreddi}t        j                  |s module contains the function number_of_subscribers.
-It queries the Reddit API to get the number of subscribers for a given subreddi|�      S yven subreddit.
 
-    Args:
-        subreddit (str): The subreddit name.
-
-    Returns:
-        int: Number of subscribers or 0 if subreddit is invalid.
-    r   z:https://www.reddit.com/r/zabout.jsonz
-Custom-User-Agent/1.0F)�eaderstatus_code�json�
-	Val�%�i�[�<�C�4�5�G�|�|�%�ueError)�	subredditnumber_of_subscribersr   
-�J�y�#�6�dit API to get the number of subscribers for a given subreddi|i
