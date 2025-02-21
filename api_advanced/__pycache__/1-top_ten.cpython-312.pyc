@@ -1,18 +1,1 @@
-�
-
-    �ϸgq  �                   �   � d Z ddlZd� Zy)z?Get the titles of the first 10 hot posts for a given subreddit.�    Nc                 �  � dj                  | �      }ddi}t        j                  ||d��      }|j                  dk7  rt	        dd�	�       y|j                  �       j                  d
-i �      j                  dg �      }t
-        t        dt        |�      �      �      D ]>  }t	        ||   j                  d
-i �      j                  d
-d�      j                  �       �       �@ y)z1Print titles of top 10 hot posts for a subreddit.z$https://www.reddit.com/r/{}/hot.jsonz
-User-AgentzMyAPI/0.0.1F)�headers�allow_redirects��   N� )�end�data�children�
-   �title)
-�format�requests�get�status_code�print�json�range�min�len�strip)�	subreddit�urlr   �response�posts�is         �-/root/alu-scripting/api_advanced/1-top_ten.py�top_tenr      s�   � � 1�
-7�
-7�	�
-B�C��]�+�G��|�|�C��%�H�H����s�"�
-�d�����M�M�O�����+�/�/�
-�B�?�E�
-�3�r�3�u�:�&�
-'� A��
-�e�A�h�l�l�6�2�&�*�*�7�B�7�=�=�?�@�A�    )�__doc__r   r   � r   r   �<module>r!      s   �� E� �Ar   
+https://raw.githubusercontent.com/N-SilverJr/alu-scripting/master/api_advanced/__pycache__/1-top_ten.cpython-312.pyc
