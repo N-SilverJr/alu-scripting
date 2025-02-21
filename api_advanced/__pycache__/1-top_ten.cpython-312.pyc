@@ -1,11 +1,1 @@
-�
 
-�ϸgq  �           of the first 11 hot posts �      j                  dç�      }t
-t        dt        |� �      j                  dç�      }t
-t      �      � �      j                  dç�      }t
-t      D ]>  }t	        ||    j                  d
-i �      j                  d
-�      j                  �       � �      j                  dç�      }t
-t       �      j                  dç�      }t
-t �@ yz1Print titles of top 10 hot posts for a subreddit.z$https://www.reddit.com/r/{}/hot.jsonz
-ser-Agefor a given subreddittatus_code�print�json�trip)�	subre�ponse�posts�eis         �-/root/alu-scripting/api_advanced/4-top_ten.py�op_tenr      s�    r   
