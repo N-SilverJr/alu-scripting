@@ -1,1 +1,23 @@
+�
 
+    M��g�  �                   �   � d Z ddlZd� Zy)z�
+This module contains the function number_of_subscribers.
+It queries the Reddit API to get the number of subscribers for a given subreddit.
+�    Nc                 �  � | rt        | t        �      syd| � d�}ddi}t        j                  ||d��      }|j                  dk(  r3	 |j                  �       }|j                  d	i �      j                  d
+d�      S y# t        $ r Y yw xY w)z�
+    Returns the number of subscribers for a given subreddit.
+
+    Args:
+        subreddit (str): The subreddit name.
+
+    Returns:
+        int: Number of subscribers or 0 if subreddit is invalid.
+    r   zhttps://www.reddit.com/r/z/about.jsonz
+User-AgentzCustom-User-Agent/1.0F)�headers�allow_redirects��   �data�subscribers)�
+isinstance�str�requests�get�status_code�json�
+ValueError)�	subreddit�urlr   �responser   s        �*/root/alu-scripting/api_advanced/0-subs.py�number_of_subscribersr   
+   s�   � � �J�y�#�6��%�i�[��
+<�C��4�5�G��|�|�C��%�H�H����s�"�	��=�=�?�D��8�8�F�B�'�+�+�M�1�=�=� 
+�� � 	��	�s   �1A9 �9	B�B)�__doc__r   r   � �    r   �<module>r      s   ���
+ �
+r  
